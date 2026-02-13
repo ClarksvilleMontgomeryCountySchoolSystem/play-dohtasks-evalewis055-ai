@@ -1,9 +1,10 @@
 def main():
     # Enter your color.
-    color1 = "pink"
+    color1 = "blue"
 
     print(f"1) Use {color1} to roll a medium-sized ball.\n")
-    choice1 = input("big or small? ")
+    # Collect input. Use choice1 Prompt: "big or small? "
+    choice1 = input('big or small? ')
     # == Is used to test for equality.
     if choice1 == "big":
         print("2) Flatten the ball into a wide disc.\n")
@@ -14,6 +15,7 @@ def main():
     print(f"5) Use {color1} to roll a small ball.\n")
     print("6) Attach it to one side.\n")
     #Go to user - Include a space after the ? in your prompt.
+    # Collect input. Use choice2 Prompt: "option 1 or option 2? "
     choice2 = input("option 1 or option 2? ")
     # Use == to check the User's choice.
     # Remember you are checking equality to a string. You must use quotes.
